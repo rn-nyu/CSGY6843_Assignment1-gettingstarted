@@ -7,11 +7,12 @@ import sys
 ##Clean function
 def clear_str (query):
     ##Remove leading/trailing spaces
-    s_query = query.strip()
+    ##Creates error with Q6, since the Gradescope question has a trailing space
+    ##s_query = query.strip()
 
     # Lower for comparison
-    les_query = s_query.lower()
-    return les_query
+    low_query = query.lower()
+    return low_query
 
 def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
@@ -31,9 +32,9 @@ def welcome_assignment_answers(question):
     elif clear_str(question) == "Is MD5 a secured hashing algorithm? - Yes/No".lower():
         answer = "No"
     elif clear_str(question) == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number".lower():
-        answer = 4
+        answer = 7
     elif clear_str(question) == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number".lower():
-        answer = 2
+        answer = 3
     else:
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
