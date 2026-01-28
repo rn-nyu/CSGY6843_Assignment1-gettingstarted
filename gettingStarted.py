@@ -13,10 +13,10 @@ questions_list = {
 "Is it possible to decrypt a message without a key? - Yes/No": "No",
 "Is it possible to decode a message without a key? - Yes/No": "No",
 "Is a hashed message supposed to be un-hashed? - Yes/No": "No",
-"What is the SHA256 hashing value of your NYU email and use the answer in your code - ": "9402f67f3955348dcddaa6dd0e369a05b00c51f1561eec44c3299ceb74a60d77  -",
+"What is the SHA256 hashing value of your NYU email and use the answer in your code - ": "9402f67f3955348dcddaa6dd0e369a05b00c51f1561eec44c3299ceb74a60d77",
 "Is MD5 a secured hashing algorithm? - Yes/No": "No",
-"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number": "4",
-"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number": "2"
+"What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number": 4,
+"What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number": 2
 }
 import sys
 
