@@ -24,7 +24,7 @@ def welcome_assignment_answers(question):
     elif clear_str(question) == "Is it possible to decrypt a message without a key? - Yes/No".lower():
         answer = "No"
     elif clear_str(question) == "Is it possible to decode a message without a key? - Yes/No".lower():
-        answer = "No"
+        answer = "Yes" #No
     elif clear_str(question) == "Is a hashed message supposed to be un-hashed? - Yes/No".lower():
         answer = "No"
     elif clear_str(question) == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ".lower():
