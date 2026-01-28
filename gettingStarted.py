@@ -32,7 +32,7 @@ def welcome_assignment_answers(question):
     elif clear_str(question) == "Is MD5 a secured hashing algorithm? - Yes/No".lower():
         answer = "No"
     elif clear_str(question) == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number".lower():
-        answer = 7
+        answer = 5
     elif clear_str(question) == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number".lower():
         answer = 3
     else:
